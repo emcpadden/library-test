@@ -1,0 +1,16 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/mylib",
+  "lib": {
+    "entryFile": "src/public-api.ts",
+    "umdModuleIds": {
+      "uuid": "uuid",
+      "ngx-socket-io":"ngx-socket-io"
+    }
+  },
+  "whitelistedNonPeerDependencies": [
+    "tslib",
+    "uuid",
+    "ngx-socket-io"
+  ]
+}
